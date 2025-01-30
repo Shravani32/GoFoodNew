@@ -10,7 +10,7 @@ const Home = () => {
   const [search, setSearch] = useState("");
 
   const loadData = async () => {
-    let response = await fetch("http://localhost:3000/api/foodData", {
+    let response = await fetch("https://gofoodnew-o756.onrender.com/api/foodData", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

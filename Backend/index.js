@@ -11,7 +11,7 @@ app.get("/",(req,res)=>{
 });
 
 app.use((req,res,next)=>{
-    res.setHeader("Accsess-Control-Allow-Origin","http://localhost:3000");
+    res.setHeader("Accsess-Control-Allow-Origin","https://gofoodnew-o756.onrender.com");
     res.header(
         "Accsess-Control-Allow-Origin",
         "Origin,X-Requested-With,Content-Type,Accept"
